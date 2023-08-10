@@ -1,0 +1,69 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contanier {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(227, 242, 253);
+}
+
+.testimonial {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 10px;
+    overflow: hidden;
+}
+
+.testimonial .image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;background-image: center;
+    border-radius: 50%;
+
+}
+
+.testimonial .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.testimonial .slide p {
+    padding: 0px 130px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.testimonial .slide .quote-icon {
+    color: #4070f5;
+    font-size: 35px;
+}
+
+.testimonial .slide .details {
+    text-align: center;
+}
+
+.testimonial .slide .details h2 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #333;
+}
+
+.testimonial .slide .details h3 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #333;
+}
